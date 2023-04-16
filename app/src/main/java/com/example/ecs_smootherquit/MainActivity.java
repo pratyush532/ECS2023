@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Insert successful", Toast.LENGTH_SHORT).show();
                 }
 
-//                String theurl = "http://192.168.97.248/index.php?led3=1";
+//                String theurl = "http://ip/index.php?led3=1";
 //                Uri urlstr = Uri.parse(theurl);
 //                Intent urlintent = new Intent();
 //                urlintent.setData(urlstr);
@@ -251,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
     HERE IS API REQUEST AND RESPONSE
      */
 
-    private static final String URL = "http://192.168.94.248/index.php?var1=1";
+    private static final String URL = "http://ip/index.php?var1=1";
 
     private TextView mTextView;
 
